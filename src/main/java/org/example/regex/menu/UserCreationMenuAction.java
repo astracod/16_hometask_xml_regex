@@ -8,14 +8,14 @@ import java.io.PrintStream;
 import java.util.List;
 import java.util.Scanner;
 
-public class UserCreation implements MenuAction {
+public class UserCreationMenuAction implements MenuAction {
 
     private ParseData parseData;
     private Scanner scanner;
     private PrintStream out;
     private String name;
 //
-    public UserCreation(ParseData parseData, Scanner scanner, PrintStream out) {
+    public UserCreationMenuAction(ParseData parseData, Scanner scanner, PrintStream out) {
         this.parseData = parseData;
         this.scanner = scanner;
         this.out = out;

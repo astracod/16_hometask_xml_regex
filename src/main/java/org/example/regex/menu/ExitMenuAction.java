@@ -5,10 +5,10 @@ import org.example.regex.userCreation.UserParseException;
 import java.io.IOException;
 import java.io.PrintStream;
 
-public class Exit implements MenuAction {
+public class ExitMenuAction implements MenuAction {
     private PrintStream out;
 
-    public Exit(PrintStream out) {
+    public ExitMenuAction(PrintStream out) {
         this.out = out;
     }
 

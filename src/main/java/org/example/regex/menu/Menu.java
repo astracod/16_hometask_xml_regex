@@ -23,8 +23,8 @@ public class Menu {
         this.menuActions = new ArrayList<>();
         this.scanner = new Scanner(System.in);
         this.out = System.out;
-        menuActions.add(new UserCreation(parseData, scanner, out));
-        menuActions.add(new Exit(out));
+        menuActions.add(new UserCreationMenuAction(parseData, scanner, out));
+        menuActions.add(new ExitMenuAction(out));
     }
 
 
